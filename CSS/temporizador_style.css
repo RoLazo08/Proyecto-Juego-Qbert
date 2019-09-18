@@ -1,0 +1,68 @@
+body {
+
+    /* Ubicación de la imagen */
+    
+    background-image: url(../Imagenes/qbert.jpg);
+    
+    /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    
+    background-position: center center;
+    
+    /* Para que la imagen de fondo no se repita */
+    
+    background-repeat: no-repeat;
+    
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    
+    background-attachment: fixed;
+    
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    
+    background-size: cover;
+    
+    /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+    
+    background-color: #66999;
+    }
+    
+    #prueba{
+        text-align: center;
+        font-size: 80px;
+        margin-top: 0px;
+        color: aliceblue;
+        /*background-color: crimson;*/
+      }
+    /*#demo{
+        background-color: plum;
+        background-size: 85px;
+    } 
+    cambiar el color para el fondo del temporizador*/
+    h1{
+        text-align: center;
+        font-size: 45px;
+        color: aliceblue;
+    }
+
+    .caja {
+        width: 150px;
+        height: 300px;
+        text-align: center;
+        border-radius: 30px;kgdrnklghrdilgn
+        padding: 30px; /*separacion que hay entre el borde y el contenido*/
+        /*margin: /*margen que hay antes de llegar al elemento*/
+    }
+
+   /* #separador{
+        height: 500px;
+        clear: both;
+    }*/
+
+
+    #demo{
+        background-color: red;
+        float: left;
+        height: 50%;
+        width: 60%;
+        margin-left: 250px;
+    }
+
